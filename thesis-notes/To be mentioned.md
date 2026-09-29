@@ -1,0 +1,80 @@
+List of stuff that I need to remember mentioning in the survey:
+
+- [ ] weakness of NNs when handling tabular data - methods like trees or, I think, booosting work well there - see google's tabnet paper
+- [ ] something like tabnet though seems just way too heavy - adding attention layers
+- [ ] something like the "really well tuned regularizer cocktail" paper could work though
+- [ ] mention how they built an automated tool for that and how there is no way youre gonna do that
+- [ ] mention also that instictively there was regularization added. the problem was that it wasnt nearly enough
+- [ ] could also mention that  optimization methods for nns were known, but for classic ml not 
+- [ ] autogluon results validating the tabular speculation, along with my low performance mlp
+- [x] images that show the difference between viewport and scene cap
+- [ ] images and graphs that show the difference in GRVI between different times of day, existence of trees and fog
+- [ ] whatever chat GPT said about the samples and clustering and everything
+- [ ] whatever chat GPT said in general
+- [ ] need to also do feature engineering. explain how I started with as many as possible and i reduced them in the optimization stage
+- [ ] how my labels are noisy and regularization works well for them
+- [ ] adding more layers to an mlp didnt work, and i tried adamw and in vacuum: didnt work. but a 3 layer adamW-l2 did do somewhat well for 120 epochs. same process with 4 layers didnt perform as well
+- [ ] different shapes and rates of dropout dont seem to work
+- [ ] BN with though Worked! 
+- [ ] standard scaling + adamW + BN + L2 goat
+- [ ] Stochastic Weight Averaging and lookahead optimizer didnt appear much in the final implementaions, or at least as far as being mentioned in the paper goes. therefore i didnt touch them since i didnt know them too
+- [ ] shake-shake structural regularization could be a thing, but again, we are not trying to make something heavy (find reasons why ss is heavy)
+- [ ] skip-connection require custom implementation and relies on adding dropout, which didnt work well. did not want to spend time for that 
+- [ ] cosine and se dont do much for me either
+- [ ] shake-drop did not work
+- [ ] augmentation with noise didnt work with the BN+AdamW+L2+standard scaling alone
+- [ ] didnt work with cosine and se either
+- [ ] same for mixup w/out cosine and se
+- [ ] didnt work with them either. most probably the bn+L2+adamW+scaling wins
+- [ ] this one only worked really well for no trees, the rest struggled a bit
+- [ ] pruning no trees 0.2 0.4 surpassed original
+- [ ] it is suspected that several features are needless: specifically
+	- sunRoll and camRoll remain constant all the time
+	- camPitch technically remains the same. it has a small jittering but, it shoudlnt affect anything anyways
+	- what is sunPitch anyways
+- [ ] Standard scaling can be included at the feature engineering part, along removing columns etc
+- [ ] running the captum thing for notrees: 
+	- Sunroll and camRoll are useless
+	- surprisingly, cam Pitch affects the model more than cam Yaw. this is weird because camYaw is relevant to how the camera is positioned relatively to the sun. camera pitch shouldnt influence the model though
+	- sunPitch also seems to influence the model by a lot while i dont thinnk it should. ill try to remove it
+	- surprisingly low are: red illuminance, which is a lot lower than green illuminance, sunYaw, which again has to do with the relative position of the sun to the camera
+- [ ] as expected, removing sun roll + cam roll did nothing
+- [ ] removing sunPitch did result in a tiny 0.5% accuracy loss - that could even be attributed to bad initialization, but if it is about optimizing the model, sure?
+- [ ] removing camPitch does actually hurt the accuracy by like 0.1 or 0.2
+- [ ] removing camYaw had exactly the same effect
+- [ ] this is probably good though? like, at least we get to see that the model is robust to the relative position of sun and camera?
+- [ ] removing everything camera related and sun pitch and roll results in a 1.5% loss of accuracy which is not terrible
+- [ ] removing everything sun related and cameraroll had just a 0.4  at worst? what are we even doing here
+- [ ] removing everything sun and camera related results in nearly 2.3% drop of accuracy
+- [ ] removing everything above and block index finally broke it, with a 3.825% drop in accuracy
+- [ ] this makes sense, since removing blockIdx on its own caused the accuracy to drop to 4.714%
+- [ ] final decision: 2 models, normal and light. normal just removes the rolls, light removes everything sun and camera related
+- [ ] TensorRT was setup and ready
+- [ ] tried random forests. currently sitting at 5.01% relative error on no trees. most influential hyper parameter seems to be n_features, which must remain at 1. the second is max depth. n bins affects a bit, but when sitting at 64 tis fine, no major problems. best model has 256. n_trees is not doing much. also, its funny how standard scaling doesnt do anything for this one lol
+- [ ] best achieved for rf (no trees, trees, notreesGT, treesGT):
+	- 4.59%
+	- 5.13%
+	- 9.12%
+	- 8%
+- [ ] for extra trees, for these datasets:
+	- 4.25%
+	- 5.22%
+	- 6.85%
+	- 5.37%
+- [ ] for xgboost
+	- 3.57%
+	- 3.78%
+	- 6.946%
+	- 5.7%
+- [ ] for lightGBM
+- [ ] shadows benchmark!! 14799 for GT:
+	- RF = 7.95%
+	- ET = 4.24%
+	- XGB = 5.33%
+	- LightGBM = 
+- [ ] shadows benchmark!! 14799 for normal:
+	- RF = 8.585%
+	- ET = 6.13%
+	- XGB = 6.22%
+
+also check the deepseek mlp discussion for some things

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To be mentioned.md",
+                "file": "thesis-azim-solved.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To be mentioned"
+              "title": "thesis-azim-solved"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "920a46c7f0df63e0",
@@ -187,6 +188,8 @@
   },
   "active": "64cb6ba44e461a4f",
   "lastOpenFiles": [
+    "To be mentioned.md",
+    "thesis-azim-solved.md",
     "Welcome.md"
   ]
 }

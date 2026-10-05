@@ -76,5 +76,18 @@ List of stuff that I need to remember mentioning in the survey:
 	- RF = 8.585%
 	- ET = 6.13%
 	- XGB = 6.22%
+- [ ] returning to the MLP, the original model had an accuracy of 3.84% at  the notrees ds. Using the azimuth thing, the accuracy is 4.59%
+- [ ] for the combined, gt and gt-combined:
+	- 7.37%
+	- 10.81%
+	- 14.42%
+- [ ] in classical ml methods for the azimuth-notrees dataset:
+	- RF = 4.795%
+	- ET = 5.465%
+	- XGB = 4.11%
+- [ ] for the 3 other datasets, as mentioned above:
+	- RF: 5.55% - 12.26% - 12.06%
+	- ET: 8% - 12.23% - 13.16%
+	- XGB: 4.7% - 10.89% - 9.94%
 
 also check the deepseek mlp discussion for some things

@@ -1,1 +1,2 @@
 - [ ] When referring to the fact  that the lightmeter measurements were shifted back, do I mention that I shifted them back, or do I pretend that they have been like that all along
+- [ ] Could mention that an LSTM-driven method could increate the illuminance

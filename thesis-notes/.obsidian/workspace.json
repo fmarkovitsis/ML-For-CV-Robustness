@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b82064209879b89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "shadows"
-            }
-          },
-          {
             "id": "bedfde9439678b1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions.md",
+                "file": "To be mentioned.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "To be mentioned"
+            }
+          },
+          {
+            "id": "43079c2ad7946cba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DP and FE chap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "DP and FE chap"
             }
           }
         ],
@@ -200,13 +200,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "bedfde9439678b1c",
+  "active": "43079c2ad7946cba",
   "lastOpenFiles": [
-    "Pasted image 20261023135025.png",
     "To be mentioned.md",
+    "DP and FE chap.md",
     "thesis-azim-solved.md",
-    "Questions.md",
     "shadows.md",
+    "Questions.md",
+    "images/Pasted image 20261023135025.png",
+    "images",
     "Welcome.md"
   ]
 }

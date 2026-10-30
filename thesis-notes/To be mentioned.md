@@ -9,8 +9,8 @@ List of stuff that I need to remember mentioning in the survey:
 - [ ] autogluon results validating the tabular speculation, along with my low performance mlp
 - [x] images that show the difference between viewport and scene cap
 - [ ] images and graphs that show the difference in GRVI between different times of day, existence of trees and fog
-- [ ] whatever chat GPT said about the samples and clustering and everything
-- [ ] whatever chat GPT said in general
+- [x] whatever chat GPT said about the samples and clustering and everything
+- [x] whatever chat GPT said in general
 - [ ] need to also do feature engineering. explain how I started with as many as possible and i reduced them in the optimization stage
 - [ ] how my labels are noisy and regularization works well for them
 - [ ] adding more layers to an mlp didnt work, and i tried adamw and in vacuum: didnt work. but a 3 layer adamW-l2 did do somewhat well for 120 epochs. same process with 4 layers didnt perform as well

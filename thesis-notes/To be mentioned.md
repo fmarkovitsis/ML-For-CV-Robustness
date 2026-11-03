@@ -89,5 +89,23 @@ List of stuff that I need to remember mentioning in the survey:
 	- RF: 5.55% - 12.26% - 12.06%
 	- ET: 8% - 12.23% - 13.16%
 	- XGB: 4.7% - 10.89% - 9.94%
-
+- [ ] make comparison between:
+	- labels using avg(GRVI) and (avgG-avgR)/(avgG + avgR)
+	- the same comparison in the input data
+	- using instances where the soil is visible and instances where it was removed
+- [ ] final resulting datasets, in the pre processing chapter:
+	- not too overly engineered features
+		1. notrees - dl
+		2. notrees - gt
+		3. trees - dl - aoi
+		4. trees - dl - real
+		5. trees - gt - aoi
+		6. trees - gt - real
+		7. 1. and 3. comb
+		8. 1. and 4. comb
+		9. 2. and 5. comb
+		10. 2. and 6. comb
+	- azimuth:
+		- trees - gt - real
+		- trees - dl - real
 also check the deepseek mlp discussion for some things

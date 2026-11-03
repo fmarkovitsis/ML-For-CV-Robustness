@@ -11,6 +11,8 @@ this dataset was overall a nice baseline, and tuning the hyper parameters and mo
 
 #### Classical ml
 
+i can probably add other models like svm and linear/ridge/lasso
+
 talk about how we tend to check these kinds of models and tune them, talk about grid search etc and finding which iteration had the best performance
 
 #### Neural net

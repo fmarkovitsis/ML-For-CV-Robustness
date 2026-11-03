@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6b234bcaa06edbc",
+        "id": "8bc6fcf9d17c21f5",
         "type": "tabs",
         "children": [
           {
-            "id": "bedfde9439678b1c",
+            "id": "d3298ca2d90374fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML chap.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ML chap"
+              "title": "New tab"
             }
           }
         ]
@@ -46,7 +42,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Εξερεύνηση Αρχείων"
+              "title": "Files"
             }
           },
           {
@@ -176,21 +172,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Άνοιγμα γρήγορης αλλαγής": false,
-      "graph:Άνοιγμα προβολή γράφου": false,
-      "canvas:Δημιουργία νέου καμβά": false,
-      "daily-notes:Άνοιγμα σημερινής σημείωσης": false,
-      "templates:Εισαγωγή προτύπου": false,
-      "command-palette:Άνοιγμα παλέτας εντολών": false,
-      "bases:Δημιουργία νέας βάσης": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "bedfde9439678b1c",
+  "active": "d3298ca2d90374fc",
   "lastOpenFiles": [
-    "DP and FE chap.md",
-    "ML chap.md",
-    "thesis-azim-solved.md",
+    "Temp stuff to be fixed on thesis.md",
     "To be mentioned.md",
+    "ML chap.md",
+    "DP and FE chap.md",
+    "thesis-azim-solved.md",
     "shadows.md",
     "Questions.md",
     "images/Pasted image 20261023135025.png",

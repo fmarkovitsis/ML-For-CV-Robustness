@@ -7,11 +7,11 @@
 - [x] fix the word pre-processing. in pdf: 5, 6, 13, 13, 33, 34, 41, 83
 - [ ] figure 5.2 needs to be redone using drawio
 - [x] find better images for the viewport vs SCC
-- [ ] present the file storing architecture at page 61
-- [ ] generally add the marked features in 6
+- [ ] present the file storing architecture at page 61, along with GRVI and Ground truth finding architecture
+- [x] generally add the marked features in 6
 - [ ] say the dataset creation better, i guess?
 - [ ] examine page 68 better
 - [ ] fix phrasing in 6.2.1, along with the examined datasets
-- [ ] on 6.2.3 you have found the range, just slap it back there or something. mention the values post clustering and say that they are post clustering
+- [x] on 6.2.3 you have found the range, just slap it back there or something. mention the values post clustering and say that they are post clustering
 - [ ] also, back on dataset creation, add the additional models decided to be part of all this
 - [ ] god save chapter 7

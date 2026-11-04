@@ -11,10 +11,14 @@
             "id": "d3298ca2d90374fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Temp stuff to be fixed on thesis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Temp stuff to be fixed on thesis"
             }
           }
         ]
@@ -42,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Εξερεύνηση Αρχείων"
             }
           },
           {
@@ -172,13 +176,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Άνοιγμα γρήγορης αλλαγής": false,
+      "graph:Άνοιγμα προβολή γράφου": false,
+      "canvas:Δημιουργία νέου καμβά": false,
+      "daily-notes:Άνοιγμα σημερινής σημείωσης": false,
+      "templates:Εισαγωγή προτύπου": false,
+      "command-palette:Άνοιγμα παλέτας εντολών": false,
+      "bases:Δημιουργία νέας βάσης": false
     }
   },
   "active": "d3298ca2d90374fc",

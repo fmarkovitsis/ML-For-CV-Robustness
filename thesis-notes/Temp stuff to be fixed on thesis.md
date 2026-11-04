@@ -1,16 +1,17 @@
 
-- [ ] explain better the avg(GRVI) vs avgG-avgR ... stuff
+- [ ] explain better the avg(GRVI) vs avgG-avgR ... stuff 
 - [ ] explain the clustering etc that happened in order to find the better  grvi versions under diffuse light conditions. add the grvi maps, probably clustering (k means 2, 4, 6, 8 etc), means and stds and whatever. you can show examples too
 - [ ] in thesis structure, fix missing info on chapter 3 and add chapter 7. correct the info on 4-7
-- [ ] feature 2.1 has a weird vertical line that can be erased
-- [ ] in the start of chapter 5, add the link to the actual pre-processing chapter, say that ill analyse it later, and say a couple of words more
-- [ ] fix the word pre-processing. in pdf: 5, 6, 13, 13, 33, 34, 41, 83
+- [x] feature 2.1 has a weird vertical line that can be erased
+- [x] in the start of chapter 5, add the link to the actual pre-processing chapter, say that ill analyse it later, and say a couple of words more
+- [x] fix the word pre-processing. in pdf: 5, 6, 13, 13, 33, 34, 41, 83
 - [ ] figure 5.2 needs to be redone using drawio
-- [ ] find better images for the viewport vs SCC
+- [x] find better images for the viewport vs SCC
 - [ ] present the file storing architecture at page 61
 - [ ] generally add the marked features in 6
 - [ ] say the dataset creation better, i guess?
 - [ ] examine page 68 better
-- [ ] on 6.2.3 you have found the range, just slap it back there or something
+- [ ] fix phrasing in 6.2.1, along with the examined datasets
+- [ ] on 6.2.3 you have found the range, just slap it back there or something. mention the values post clustering and say that they are post clustering
 - [ ] also, back on dataset creation, add the additional models decided to be part of all this
 - [ ] god save chapter 7

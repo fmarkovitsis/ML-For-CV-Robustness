@@ -13,5 +13,6 @@
 - [ ] examine page 68 better
 - [ ] fix phrasing in 6.2.1, along with the examined datasets
 - [x] on 6.2.3 you have found the range, just slap it back there or something. mention the values post clustering and say that they are post clustering
-- [ ] also, back on dataset creation, add the additional models decided to be part of all this
+- [x] also, back on dataset creation, add the additional models decided to be part of all this
 - [ ] god save chapter 7
+- [ ] fix the "i selected tabular data as that is know to perform well for the selected architectures" part. the other way around happened

@@ -16,3 +16,6 @@
 - [x] also, back on dataset creation, add the additional models decided to be part of all this
 - [ ] god save chapter 7
 - [ ] fix the "i selected tabular data as that is know to perform well for the selected architectures" part. the other way around happened
+- [ ] currently, i am only mentioning the factors that affect execution time on cpu and gpu. i should probably mention where time is spent:
+	- x time on executio
+	- y time on data transfers

@@ -19,3 +19,4 @@
 - [ ] currently, i am only mentioning the factors that affect execution time on cpu and gpu. i should probably mention where time is spent:
 	- x time on executio
 	- y time on data transfers
+- [ ] either mention in the dataset/model testing part the performance of the models in the shadows, or mention somewhere that, in the "shadows" section, there will be a comprehensive review of them. this is important to mention, because in many cases, combined datasets have greater success rate than notrees
